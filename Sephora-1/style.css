@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.promotional-bar{
+    height:50px;
+    background-color: #C0DCF1;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+}
+
+
+.navbar{
+    border: 2px solid black;
+    height: 100px;
+    background-color: #FFFFFF;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/** box1 **/
+.nav-logo{
+    height: 50px;
+    width: 105px;
+
+}
+.logo{
+    background-image: url("d:\Sephora-Logo (1).jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+/**box2**/
+.search-input{
+    width:455px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+.nav-stores{
+    display: flex;
+
+}
+
+.store-title{
+    margin-left: 10px;
+}
+.store-logo{
+    font-size: 25px;
+}
+.nav-second{
+    font-size: 11px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #011111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+.hero-section{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+.box{
+    height: 470px;
+    width: 32.5%;
+    text-align: center;
+    
+}
+.box-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 370px;
+    background-size: cover;
+}
+.box-text1{
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    
+}
+.box-text2{
+    height: 100px;
+    background-color:rgb(98, 36, 71);
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    
+}
+.box-text3{
+    height: 100px;
+    background-color:rgb(195, 172, 143);
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}
+.container{
+    
+    height: 1200px;
+    width: 80%;
+    margin:auto ;
+    
+}
+.parent{
+    margin-bottom: 25px;
+    height: 350px;
+    
+}
+
+
+.child{
+    height: 325px;
+    display:flex;
+    justify-content:space-between;
+
+
+}
+.nursery{
+    border: 2px solid white;
+    width: 19%;
+    text-align:center;
+    border-radius: 5px;
+    box-shadow:0 0 6px rgb(0, 0, 0, .2)
+}
+.parent1{
+
+    height: 490px;
+}
+.child1{
+    height: 450px;
+    display:flex;
+    justify-content:space-between;
+} 
+.box1-img{
+    height: 200px;
+    background-size: cover;
+}
+.first{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top:70px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.box2{
+    border: 2px solid white;
+    width:32%;
+    text-align: center;
+
+}
+.box2-img{
+    height: 265px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-size:cover ;
+}
+.box-text4{
+    height: 135px;
+    background-color:rgb(107, 163, 198);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box-text5{
+    height: 135px;
+    background-color:#C0DCF1 ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.box-text6{
+    height: 135px;
+    background-color:rgb(136, 221, 212);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+footer{
+    margin-top: 50px;
+}
+.foot-panel1{
+    background-color: rgb(204,204,204);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  0.9rem; 
+    font-weight: bold;
+}
+.foot-panel2{
+    height: 100px;
+    background-color: #011111;
+    color: white;
+    border-bottom:0.5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ajeet{
+    display: flex;
+    padding-left: 30px;
+    
+}
+
+
+
+.foot-panel3{
+    background-color:#011111;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 20px;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel4{
+    height: 200px;
+    background-color: #011111;
+    color: white;
+    border-top:0.5px solid white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}    
+.logo1{
+    margin-left: 100px;
+}
+.logo2{
+    margin-right: 100px;
+}
+.logo2 i{
+    margin:15px;
+    font-size: 25px;
+}.rajeev{
+    display: flex;
+}
+.sanjeet{
+    margin-top: 150px;
+
+}
+.search-input1{
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.end{
+    margin-top: 30px;
+}
+
+
+
+
+
+
